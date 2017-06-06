@@ -22,10 +22,11 @@ a{
 a:hover{
 	text-decoration:underline;
 	padding: 20px 40px;
+	cursor: pointer;
 
 }
 
-.menu ul{
+.resp-menu ul{
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
@@ -39,4 +40,16 @@ li{
 
 ul li:last-child{
 	border:none;
+}
+
+.hide{
+	display: none;
+}
+
+.mostrar{
+	display:block;
+}
+
+.resp-menu{
+	display: none;
 }

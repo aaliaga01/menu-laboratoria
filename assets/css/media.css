@@ -1,0 +1,29 @@
+@media (min-width: 100px) and (max-width: 824px){
+
+	.hide{
+		display:none;
+	}
+
+	.resp-menu{
+	width: 100%;
+	display: block;
+	background-color: #28292E;
+	color:white;
+		padding: 20px 40px;
+
+	}
+
+	a{
+		color:white;
+	}
+
+	li{
+	padding: 20px 40px;
+	border-bottom:solid thin black;
+	}
+
+	nav{
+		font-family: 'Raleway', sans-serif;
+	}
+
+}
