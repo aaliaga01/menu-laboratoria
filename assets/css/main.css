@@ -15,8 +15,7 @@ ul{
 a{
 	text-decoration: none;
 	padding: 20px 40px;
-
-
+	color: white;
 }
 
 a:hover{
@@ -26,7 +25,7 @@ a:hover{
 
 }
 
-.resp-menu ul{
+.menu ul{
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
@@ -47,9 +46,9 @@ ul li:last-child{
 }
 
 .mostrar{
-	display:block;
+	display: block;
 }
 
-.resp-menu{
-	display: none;
+.mano{
+	cursor: pointer;
 }

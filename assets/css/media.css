@@ -1,24 +1,21 @@
-@media (min-width: 100px) and (max-width: 824px){
-
-	.hide{
-		display:none;
+@media (min-width: 100px) and (max-width: 624px){
+	#btn{
+		color: white;
 	}
 
-	.resp-menu{
+	.mostrar{
+		display: none;
+	}
+
+	.menu ul{
 	width: 100%;
 	display: block;
-	background-color: #28292E;
-	color:white;
-		padding: 20px 40px;
-
-	}
-
-	a{
-		color:white;
+	background-color: #1E2123;
 	}
 
 	li{
 	padding: 20px 40px;
+	border-right: none;
 	border-bottom:solid thin black;
 	}
 
