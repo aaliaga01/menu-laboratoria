@@ -1,9 +1,9 @@
 
 document.getElementById("btn").addEventListener("click",function(){
-	var status = document.getElementById("mst").style.display;
+	var status = document.getElementById("desplegable").style.display;
  		if (status == "block"){
- 			document.getElementById("mst").style.display = "none";
+ 			document.getElementById("desplegable").style.display = "none";
  		} else {
- 		document.getElementById("mst").style.display = "block";
+ 		document.getElementById("desplegable").style.display = "block";
  		}
  });

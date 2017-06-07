@@ -7,9 +7,12 @@
 	display:flex;
 }
 
+body{
+	font-family: 'Slabo 27px', serif;
+}
+
 ul{
 	list-style-type: none;
-
 }
 
 a{
@@ -25,7 +28,7 @@ a:hover{
 
 }
 
-#mst{
+#desplegable{
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
@@ -37,7 +40,7 @@ li{
 	border-right:solid thin white;
 }
 
-#mst li:last-child{
+#desplegable li:last-child{
 	border:none;
 }
 

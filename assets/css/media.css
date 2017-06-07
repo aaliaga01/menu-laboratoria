@@ -3,6 +3,8 @@
 		color:white;
 		padding: 20px 20px;
 		background-color: #1E2123;
+		cursor: pointer;
+		font-weight: bold;
 	}
 
 	.hide{
@@ -13,8 +15,9 @@
 		display: ;
 	}
 
-	#mst{
+	#desplegable{
 		display: none;
+		cursor: pointer;
 	}
 
 	ul{
