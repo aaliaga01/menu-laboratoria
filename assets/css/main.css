@@ -25,7 +25,7 @@ a:hover{
 
 }
 
-.menu ul{
+#mst{
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
@@ -37,7 +37,7 @@ li{
 	border-right:solid thin white;
 }
 
-ul li:last-child{
+#mst li:last-child{
 	border:none;
 }
 
@@ -46,6 +46,10 @@ ul li:last-child{
 }
 
 .mostrar{
+	display: block;
+}
+
+.mostrarjs{
 	display: block;
 }
 
