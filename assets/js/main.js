@@ -1,11 +1,9 @@
 
-var menu= document.getElementById("btn");
-
- 	menu.addEventListener("click",function togg(){
- 		if (document.getElementById("mst").style.display =="none"){
- 			document.getElementById("mst").style.display ="block";
+document.getElementById("btn").addEventListener("click",function(){
+	var status = document.getElementById("mst").style.display;
+ 		if (status == "block"){
+ 			document.getElementById("mst").style.display = "none";
  		} else {
- 			document.getElementById("mst").style.display="block"
+ 		document.getElementById("mst").style.display = "block";
  		}
- 		
  });
